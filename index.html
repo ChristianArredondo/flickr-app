@@ -11,11 +11,21 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				
+				<h1>Search Flickr Quickr</h1>
+				<form id="searchForm">
+					<div class="form-group">
+						<input type="search" name="search" id="search" placeholder="Search for...">
+						<button type="submit" class="btn btn-md btn-primary">Pics!</button>
+					</div>
+				</form>
 			</div>
+		</div>
+		<div class="row" id="photos">
+			
 		</div>
 	</div>
 
@@ -23,5 +33,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/4161bad4a8.js"></script>
+    <script type="text/javascript" src="flickr.js"></script>
 </body>
 </html>

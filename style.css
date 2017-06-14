@@ -1,0 +1,31 @@
+body {
+}
+
+.container {
+	text-align: center;
+}
+
+.row {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.row img {
+	margin: 0px 10px;
+	display: inline-block;
+}
+
+.row a {
+	display: inline-block;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.thumb {
+	min-height: 240px;
+	max-height: 275px;
+	text-align: center;
+	margin-bottom: 50px;
+	display: table;
+}
