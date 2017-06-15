@@ -18,4 +18,4 @@ $('#searchForm').submit(function(event) {
     $('#photos').html(flickrHTML);       
   };  //end displayPhotos function
   $.getJSON(flickrAPI, flickrOptions, displayPhotos);
-}); //end button click handler
+}); //end form submit handler
