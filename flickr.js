@@ -1,9 +1,9 @@
 $('#searchForm').submit(function(event) {
   event.preventDefault();
   var flickrAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
-  var animal = $('#search').val();
+  var searchVal = $('#search').val();
   var flickrOptions = {
-  tags: animal,
+  tags: searchVal,
   format: "json"
   };  //end flickrOptions object
   // Create API request variables
